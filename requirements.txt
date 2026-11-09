@@ -1,0 +1,16 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# GUI
+PyQt5>=5.15.10,<6.0
+
+# HTTP-запросы к KoboldCPP API
+requests>=2.31.0,<3.0
+
+# numpy
+numpy>=1.26.0,<2.0.0
+
+# TTS Silero
+silero
+
+# PyTorch CPU-сборка.
+torch==2.8.0+cpu
